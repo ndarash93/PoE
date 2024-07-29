@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PoE-rescue")(type "KiCad")(uri "${KIPRJMOD}/PoE-rescue.kicad_sym")(options "")(descr ""))
+)
