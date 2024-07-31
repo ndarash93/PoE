@@ -4494,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 209.55 104.14)
+			(xy 137.16 104.14) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4561,6 +4561,16 @@
 			(type default)
 		)
 		(uuid "79d4b59d-0146-4b2c-bdee-524fff7fce58")
+	)
+	(wire
+		(pts
+			(xy 170.18 104.14) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2aceb3-3dff-453a-9cd6-99a928fa750b")
 	)
 	(wire
 		(pts
@@ -10285,7 +10295,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3b4fa8e-ac10-4d08-a650-73f12347c5df")
 		(property "Reference" "C3"
 			(at 141.6812 118.2116 0)
@@ -10616,6 +10626,74 @@
 			(project "PoE"
 				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 166.37 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f157b35c-860c-4bdf-afbb-f1c830f1f2ea")
+		(property "Reference" "R22"
+			(at 166.37 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 166.37 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0402"
+			(at 166.116 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ae86e5e-8d99-4470-959c-8c4a710c04fa")
+		)
+		(pin "2"
+			(uuid "e25dbb02-db60-486f-8ca9-cf5ef6962669")
+		)
+		(instances
+			(project "PoE"
+				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
+					(reference "R22")
 					(unit 1)
 				)
 			)
