@@ -7,4 +7,5 @@
   (lib (name "750311320")(type "KiCad")(uri "${KIPRJMOD}/Component_Library/KiCADv6/750311320.kicad_sym")(options "")(descr ""))
   (lib (name "MBRS540T3G")(type "KiCad")(uri "${KIPRJMOD}/Component_Library/KiCADv6/MBRS540T3G.kicad_sym")(options "")(descr ""))
   (lib (name "TLV431ACDBZR")(type "KiCad")(uri "${KIPRJMOD}/Component_Library/KiCADv6/TLV431ACDBZR.kicad_sym")(options "")(descr ""))
+  (lib (name "ARJM11B1_009_AB_EW2")(type "KiCad")(uri "${KIPRJMOD}/Component_Library/KiCADv6/ARJM11B1_009_AB_EW2.kicad_sym")(options "")(descr ""))
 )
