@@ -518,6 +518,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Flyback/T_PRI": "PWR",
       "/POE0_N": "Diff",
       "/POE0_P": "Diff",
       "/POE1_N": "Diff",

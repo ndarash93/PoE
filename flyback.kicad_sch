@@ -3732,6 +3732,12 @@
 		(uuid "311f67e7-c338-486a-97c9-65ab57fe048f")
 	)
 	(junction
+		(at 95.25 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "318ff390-81e8-4db9-9a5d-57dd6cfcdce5")
+	)
+	(junction
 		(at 195.58 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3850,12 +3856,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca58ec3b-367a-4b6d-bd1e-a365dd2d77d0")
-	)
-	(junction
-		(at 97.79 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1039a6a-cc44-44d6-bb3b-37a313e663a3")
 	)
 	(junction
 		(at 180.34 57.15)
@@ -4535,7 +4535,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 40.64) (xy 97.79 44.45)
+			(xy 95.25 40.64) (xy 95.25 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4735,6 +4735,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 57.15) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8330b700-27ec-4ce0-a90e-0efffe8d4c06")
+	)
+	(wire
+		(pts
 			(xy 83.82 139.7) (xy 52.07 139.7)
 		)
 		(stroke
@@ -4835,7 +4845,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 40.64) (xy 97.79 40.64)
+			(xy 102.87 40.64) (xy 95.25 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5345,16 +5355,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 57.15) (xy 105.41 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d70eb3e2-823a-4df0-a5ef-41062728ec66")
-	)
-	(wire
-		(pts
 			(xy 50.8 121.92) (xy 50.8 124.46)
 		)
 		(stroke
@@ -5515,7 +5515,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 57.15) (xy 97.79 57.15)
+			(xy 45.72 57.15) (xy 95.25 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5624,6 +5624,17 @@
 			(justify left bottom)
 		)
 		(uuid "9d7d887b-b237-4591-a108-cbf756278fb2")
+	)
+	(label "T_PRI"
+		(at 207.01 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eec47412-704b-490c-97b8-d28e1ccc84ad")
 	)
 	(global_label "APD"
 		(shape input)
@@ -10536,7 +10547,7 @@
 	)
 	(symbol
 		(lib_id "PoE-rescue:C-pspice")
-		(at 97.79 50.8 0)
+		(at 95.25 50.8 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10545,7 +10556,7 @@
 		(dnp no)
 		(uuid "efbcc9a9-4cac-484b-bf3e-1587d2b3b989")
 		(property "Reference" "C2002"
-			(at 102.3112 51.9684 0)
+			(at 99.7712 51.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +10565,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 102.3112 49.657 0)
+			(at 99.7712 49.657 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10563,7 +10574,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAP_WCAP-ASLI_06p3X05p5_WRE"
-			(at 97.79 50.8 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 50.8 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10592,7 @@
 			)
 		)
 		(property "Description" "CIN1"
-			(at 102.362 47.498 0)
+			(at 99.822 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
