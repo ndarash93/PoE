@@ -3774,6 +3774,12 @@
 		(uuid "6db65696-3bc7-4e99-9405-4cd65eb858f4")
 	)
 	(junction
+		(at 120.65 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81cc3222-4b27-4365-9d7c-865bfc540678")
+	)
+	(junction
 		(at 129.54 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3880,12 +3886,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eafe5952-de1e-4eae-a433-7c1bbc710ee0")
-	)
-	(junction
-		(at 120.65 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3f338f1-bbea-467e-82da-44a35c526418")
 	)
 	(junction
 		(at 50.8 113.03)
@@ -4235,7 +4235,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 57.15) (xy 129.54 57.15)
+			(xy 113.03 57.15) (xy 120.65 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4442,16 +4442,6 @@
 			(type default)
 		)
 		(uuid "53e9c2b7-1af6-4fad-ab43-42a3ca4f24af")
-	)
-	(wire
-		(pts
-			(xy 113.03 57.15) (xy 120.65 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "568a3af2-31df-41b3-9682-329fd98d48cd")
 	)
 	(wire
 		(pts
@@ -5412,6 +5402,16 @@
 			(type default)
 		)
 		(uuid "e2b2a04a-49d8-4662-b5b8-f4806712d6ca")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4371323-dbd7-4b03-bd18-5c0bf6535515")
 	)
 	(wire
 		(pts
@@ -8861,76 +8861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PoE-rescue:C-pspice")
-		(at 120.65 50.8 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ec7b390-0c1f-439f-bd0a-fbe7784ba2d4")
-		(property "Reference" "C2003"
-			(at 125.1712 51.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 125.1712 49.657 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CAP_WCAP-ASLI_06p3X05p5_WRE"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CIN2"
-			(at 125.476 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "66da315f-3f3b-4735-9750-cd23ca790ece")
-		)
-		(pin "2"
-			(uuid "4ac742da-db26-42eb-97ee-72a8da8db9c4")
-		)
-		(instances
-			(project "PoE"
-				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
-					(reference "C2003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 209.55 115.57 0)
 		(unit 1)
@@ -10564,7 +10494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 99.7712 49.657 0)
 			(effects
 				(font
@@ -10598,6 +10528,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 102.108 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10954,6 +10892,76 @@
 			(project "PoE"
 				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
 					(reference "R2017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoE-rescue:C-pspice")
+		(at 120.65 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc0409b0-fac2-4605-b4fe-e1d26867ceed")
+		(property "Reference" "C2003"
+			(at 125.1712 51.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 125.1712 49.657 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce37df9f-181a-4ef1-8d2d-d527e9e05fba")
+		)
+		(pin "2"
+			(uuid "4599fd3b-eacb-4f25-953a-c5cee6066ab4")
+		)
+		(instances
+			(project "PoE"
+				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
+					(reference "C2003")
 					(unit 1)
 				)
 			)
