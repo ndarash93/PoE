@@ -4170,12 +4170,6 @@
 		(uuid "81cc3222-4b27-4365-9d7c-865bfc540678")
 	)
 	(junction
-		(at 129.54 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "870449f6-1fb2-43ef-a0e1-7027b654e2e8")
-	)
-	(junction
 		(at 31.75 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4236,16 +4230,10 @@
 		(uuid "c3231b48-1c62-4cc4-b0cf-4b4640309f94")
 	)
 	(junction
-		(at 137.16 104.14)
+		(at 128.27 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c93a0214-e77b-4ae4-9d8a-cb5337449a45")
-	)
-	(junction
-		(at 129.54 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca58ec3b-367a-4b6d-bd1e-a365dd2d77d0")
+		(uuid "c43dd115-98da-4c3a-8fd0-f75531b0372c")
 	)
 	(junction
 		(at 199.39 99.06)
@@ -4413,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 137.16 104.14)
+			(xy 97.79 104.14) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4460,16 +4448,6 @@
 			(type default)
 		)
 		(uuid "0e676c1c-1f4d-4612-98ac-6208d120671a")
-	)
-	(wire
-		(pts
-			(xy 129.54 78.74) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0edfaf22-1fc9-454c-9984-c82491119cea")
 	)
 	(wire
 		(pts
@@ -5103,16 +5081,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 129.54 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f50f4a7-b5d9-42e4-9c7c-eaae666085d6")
-	)
-	(wire
-		(pts
 			(xy 196.85 83.82) (xy 196.85 88.9)
 		)
 		(stroke
@@ -5143,16 +5111,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 162.56 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "714a7fe9-23bc-4072-b417-15f4e87fbd36")
-	)
-	(wire
-		(pts
 			(xy 31.75 20.32) (xy 31.75 24.13)
 		)
 		(stroke
@@ -5170,16 +5128,6 @@
 			(type default)
 		)
 		(uuid "72eb62b6-8edb-4690-8759-dc74fac9d423")
-	)
-	(wire
-		(pts
-			(xy 137.16 104.14) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c739cd-ca5a-4a09-b95b-7565e52e752a")
 	)
 	(wire
 		(pts
@@ -5473,6 +5421,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 82.55) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7145e8-88a8-4080-a472-3daa0133303c")
+	)
+	(wire
+		(pts
 			(xy 38.1 96.52) (xy 62.23 96.52)
 		)
 		(stroke
@@ -5743,13 +5701,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 137.16 57.15)
+			(xy 120.65 57.15) (xy 137.16 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1e497a1-6627-45f4-97bf-4d5b5bc4ce14")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d12d78-a2ad-4f78-814a-cbbe73c4ecb4")
 	)
 	(wire
 		(pts
@@ -5953,7 +5921,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 88.9) (xy 149.86 88.9)
+			(xy 97.79 88.9) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5980,16 +5948,6 @@
 			(type default)
 		)
 		(uuid "e2b2a04a-49d8-4662-b5b8-f4806712d6ca")
-	)
-	(wire
-		(pts
-			(xy 120.65 57.15) (xy 129.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4371323-dbd7-4b03-bd18-5c0bf6535515")
 	)
 	(wire
 		(pts
@@ -6103,16 +6061,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 104.14) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b1e77a-dcc4-4c43-a4bc-2a3cdf410c0e")
-	)
-	(wire
-		(pts
 			(xy 45.72 57.15) (xy 95.25 57.15)
 		)
 		(stroke
@@ -6221,28 +6169,6 @@
 		)
 		(uuid "fe83cc67-9451-4d2b-af98-75f0a4a6e5e6")
 	)
-	(label "T2P"
-		(at 104.14 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "356ee54c-cfac-4947-a32b-85692b637c20")
-	)
-	(label "VC"
-		(at 104.14 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d7d887b-b237-4591-a108-cbf756278fb2")
-	)
 	(label "T_PRI"
 		(at 207.01 57.15 0)
 		(fields_autoplaced yes)
@@ -6253,6 +6179,28 @@
 			(justify left bottom)
 		)
 		(uuid "eec47412-704b-490c-97b8-d28e1ccc84ad")
+	)
+	(global_label "VC"
+		(shape input)
+		(at 128.27 82.55 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "170e4475-75b6-4ffa-8ccf-566865c1a057")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 77.2062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "APD"
 		(shape input)
@@ -10635,72 +10583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9c7f49a-46c4-46f7-846a-a28e96b3aea6")
-		(property "Reference" "#PWR02021"
-			(at 137.16 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "737cd1e8-0e83-4381-a9f7-215d33e82801")
-		)
-		(instances
-			(project "PoE"
-				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
-					(reference "#PWR02021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PoE-rescue:C-pspice")
 		(at 273.05 78.74 0)
 		(unit 1)
@@ -11321,145 +11203,6 @@
 			(project "PoE"
 				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
 					(reference "R2016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PoE-rescue:C-pspice")
-		(at 137.16 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e3b4fa8e-ac10-4d08-a650-73f12347c5df")
-		(property "Reference" "C2010"
-			(at 141.6812 118.2116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330p"
-			(at 141.6812 120.523 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 137.16 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dfaf07b-79ec-4fd3-aadb-d45661165f5d")
-		)
-		(pin "2"
-			(uuid "e627dd95-f861-4953-a50a-92754ca54ff4")
-		)
-		(instances
-			(project "PoE"
-				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
-					(reference "C2010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 129.54 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e66c4d36-0f0e-4fb6-a154-2a1a7b68d831")
-		(property "Reference" "R2007"
-			(at 132.08 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "750k"
-			(at 132.08 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 130.556 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 129.54 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7095669-c888-4af8-b5af-03b32737670f")
-		)
-		(pin "1"
-			(uuid "9097d4b0-3188-4307-b10d-da6ac3285f58")
-		)
-		(instances
-			(project "PoE"
-				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/1fdbb5e2-ecd4-47ea-a63c-f2f18c06d291"
-					(reference "R2007")
 					(unit 1)
 				)
 			)

@@ -5555,17 +5555,6 @@
 		)
 		(uuid "00f118c3-ccb0-42f5-9f84-7f7cabfa6865")
 	)
-	(label "VC"
-		(at 78.74 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0153f46d-d621-45da-92fb-55541261fa18")
-	)
 	(label "ETH6"
 		(at 218.44 45.72 0)
 		(fields_autoplaced yes)
@@ -5895,17 +5884,6 @@
 			(justify left bottom)
 		)
 		(uuid "914d305a-707f-45ad-a2af-1eba6e13f044")
-	)
-	(label "T2P"
-		(at 77.47 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7d0b0a7-7a12-4482-899c-5448e330eaee")
 	)
 	(label "POE0_N"
 		(at 59.69 46.99 0)
