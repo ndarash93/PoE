@@ -1,4 +1,4 @@
-24308537087551112
+24327425235207099
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98902,6 +98902,13 @@ IND_ASPI-4030S-4R7M-T
 0
 2
 2
+footprints
+MOSFET_50DP-T1-E3_VIS
+
+SI7898DP-T1-E3 
+0
+9
+3
 footprints
 PWP0016J_L
 
