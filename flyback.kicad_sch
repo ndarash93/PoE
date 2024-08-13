@@ -6169,7 +6169,7 @@
 		)
 		(uuid "fe83cc67-9451-4d2b-af98-75f0a4a6e5e6")
 	)
-	(label "5V_PRI"
+	(label "12V_PRI"
 		(at 229.87 68.58 0)
 		(fields_autoplaced yes)
 		(effects
