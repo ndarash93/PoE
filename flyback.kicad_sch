@@ -9970,7 +9970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "63..4k"
+		(property "Value" "63.4k"
 			(at 29.21 99.0599 0)
 			(effects
 				(font
