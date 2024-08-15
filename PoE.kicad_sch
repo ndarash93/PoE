@@ -3391,7 +3391,7 @@
 		(uuid "149ec0a0-4920-434d-be0b-50198a25cc83")
 	)
 	(bus_entry
-		(at 215.9 45.72)
+		(at 213.36 45.72)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3400,7 +3400,7 @@
 		(uuid "1628f572-dbfe-4ad3-9b38-e52af026e5c7")
 	)
 	(bus_entry
-		(at 215.9 38.1)
+		(at 213.36 38.1)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3409,7 +3409,7 @@
 		(uuid "24c00849-d37e-49e0-93cb-56077439bc0a")
 	)
 	(bus_entry
-		(at 215.9 43.18)
+		(at 213.36 43.18)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3472,7 +3472,7 @@
 		(uuid "479ce94e-631e-4a62-aee1-76d8de5bb517")
 	)
 	(bus_entry
-		(at 215.9 30.48)
+		(at 213.36 30.48)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3535,7 +3535,7 @@
 		(uuid "7f1cd0a4-946b-4010-bacf-6ac0c748e96a")
 	)
 	(bus_entry
-		(at 215.9 33.02)
+		(at 213.36 33.02)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3589,7 +3589,7 @@
 		(uuid "ae364d8a-8a5a-4649-83c5-09b27da1a738")
 	)
 	(bus_entry
-		(at 215.9 35.56)
+		(at 213.36 35.56)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3607,7 +3607,7 @@
 		(uuid "b2580c8c-9b46-4c89-af8f-ff0aa49ab8a4")
 	)
 	(bus_entry
-		(at 215.9 40.64)
+		(at 213.36 40.64)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3643,7 +3643,7 @@
 		(uuid "dd185923-b070-453d-abac-98bf15958e3f")
 	)
 	(bus_entry
-		(at 215.9 27.94)
+		(at 213.36 27.94)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -4022,7 +4022,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 43.18) (xy 215.9 45.72)
+			(xy 213.36 43.18) (xy 213.36 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4202,7 +4202,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 20.32) (xy 215.9 27.94)
+			(xy 213.36 20.32) (xy 213.36 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4212,7 +4212,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 40.64) (xy 215.9 43.18)
+			(xy 213.36 40.64) (xy 213.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4252,7 +4252,7 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 20.32) (xy 215.9 20.32)
+			(xy 190.5 20.32) (xy 213.36 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4262,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 38.1) (xy 223.52 38.1)
+			(xy 215.9 38.1) (xy 223.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4312,7 +4312,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 30.48) (xy 215.9 33.02)
+			(xy 213.36 30.48) (xy 213.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4402,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 43.18) (xy 223.52 43.18)
+			(xy 215.9 43.18) (xy 223.52 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4442,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 33.02) (xy 223.52 33.02)
+			(xy 215.9 33.02) (xy 223.52 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4542,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 45.72) (xy 223.52 45.72)
+			(xy 215.9 45.72) (xy 223.52 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4882,7 +4882,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 38.1) (xy 215.9 40.64)
+			(xy 213.36 38.1) (xy 213.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5092,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 40.64) (xy 223.52 40.64)
+			(xy 215.9 40.64) (xy 223.52 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5192,7 +5192,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 35.56) (xy 223.52 35.56)
+			(xy 215.9 35.56) (xy 223.52 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5252,7 +5252,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 27.94) (xy 215.9 30.48)
+			(xy 213.36 27.94) (xy 213.36 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5312,7 +5312,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 48.26) (xy 223.52 48.26)
+			(xy 215.9 48.26) (xy 223.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5322,7 +5322,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 30.48) (xy 218.44 30.48)
+			(xy 215.9 30.48) (xy 223.52 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5362,7 +5362,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 35.56) (xy 215.9 38.1)
+			(xy 213.36 35.56) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5372,7 +5372,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 33.02) (xy 215.9 35.56)
+			(xy 213.36 33.02) (xy 213.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5411,8 +5411,8 @@
 		)
 		(uuid "00f118c3-ccb0-42f5-9f84-7f7cabfa6865")
 	)
-	(label "ETH6"
-		(at 218.44 45.72 0)
+	(label "ETH3_P"
+		(at 215.9 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5444,8 +5444,8 @@
 		)
 		(uuid "17fe07d1-3c74-4cff-835d-6295c1648357")
 	)
-	(label "ETH2"
-		(at 218.44 35.56 0)
+	(label "ETH1_P"
+		(at 215.9 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5466,8 +5466,8 @@
 		)
 		(uuid "2108e05e-9f46-47e2-afc6-fdf480eb99f0")
 	)
-	(label "ETH4"
-		(at 218.44 38.1 0)
+	(label "ETH2_N"
+		(at 215.9 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5499,8 +5499,8 @@
 		)
 		(uuid "3bead0d2-423c-4f7e-941e-f21cd91d2586")
 	)
-	(label "ETH5"
-		(at 218.44 40.64 0)
+	(label "ETH2_P"
+		(at 215.9 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5565,7 +5565,7 @@
 		)
 		(uuid "4e868592-fa99-47e7-b006-957e1cd3a96b")
 	)
-	(label "ETH7"
+	(label "ETH3_N"
 		(at 180.34 55.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5576,7 +5576,7 @@
 		)
 		(uuid "50811276-c97a-4673-a58c-582f22983217")
 	)
-	(label "ETH3"
+	(label "ETH1_N"
 		(at 180.34 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5587,7 +5587,7 @@
 		)
 		(uuid "51eda18f-cb3f-4495-b3e0-96b62c99884c")
 	)
-	(label "ETH5"
+	(label "ETH2_N"
 		(at 180.34 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5598,7 +5598,7 @@
 		)
 		(uuid "56fef922-26ec-4eba-80c1-9e46600ed1a3")
 	)
-	(label "ETH4"
+	(label "ETH2_P"
 		(at 180.34 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5609,7 +5609,7 @@
 		)
 		(uuid "6496ef7e-dc52-455f-958d-ac253573b4b8")
 	)
-	(label "ETH2"
+	(label "ETH1_P"
 		(at 180.34 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5675,7 +5675,7 @@
 		)
 		(uuid "7eeae670-c8a0-42b8-ab30-9cdc79c3d167")
 	)
-	(label "ETH0"
+	(label "ETH0_P"
 		(at 180.34 30.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5686,7 +5686,7 @@
 		)
 		(uuid "8712c5f9-b2ef-4e87-8027-a1451b5102db")
 	)
-	(label "ETH6"
+	(label "ETH3_P"
 		(at 180.34 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5752,7 +5752,7 @@
 		)
 		(uuid "cef35f6e-0385-4a22-84d0-60c0d3b1e61e")
 	)
-	(label "ETH1"
+	(label "ETH0_N"
 		(at 180.34 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5763,8 +5763,8 @@
 		)
 		(uuid "d484467c-961d-4bcd-bdc2-2996c7058348")
 	)
-	(label "ETH7"
-		(at 218.44 48.26 0)
+	(label "ETH3_N"
+		(at 215.9 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5774,8 +5774,8 @@
 		)
 		(uuid "d8089af9-579e-48ae-8264-a30359d13d47")
 	)
-	(label "ETH1"
-		(at 218.44 33.02 0)
+	(label "ETH0_N"
+		(at 215.9 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5785,8 +5785,8 @@
 		)
 		(uuid "dddba4df-26f2-43ce-80ca-f739d0ae5600")
 	)
-	(label "ETH3"
-		(at 218.44 43.18 0)
+	(label "ETH1_N"
+		(at 215.9 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5829,8 +5829,8 @@
 		)
 		(uuid "e8f83764-4e8a-4be1-97d8-d03edbedb288")
 	)
-	(label "ETH0"
-		(at 218.44 30.48 0)
+	(label "ETH0_P"
+		(at 215.9 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
