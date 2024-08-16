@@ -1870,6 +1870,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 156.21) (xy 99.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb6448f-7bea-4c7d-8582-b560305399c6")
+	)
+	(wire
+		(pts
 			(xy 105.41 110.49) (xy 99.06 110.49)
 		)
 		(stroke
@@ -1950,6 +1960,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 156.21) (xy 119.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f669cf7-200c-487a-8bdb-8eac8d17e620")
+	)
+	(wire
+		(pts
 			(xy 154.94 88.9) (xy 154.94 86.36)
 		)
 		(stroke
@@ -1957,6 +1977,16 @@
 			(type default)
 		)
 		(uuid "32481684-a68a-40f2-8b98-61197d4f52ce")
+	)
+	(wire
+		(pts
+			(xy 119.38 156.21) (xy 127 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3446fe69-98f4-4745-bec0-0ab4629ae7e1")
 	)
 	(wire
 		(pts
@@ -1970,6 +2000,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 156.21) (xy 127 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d476b72-7122-4f3d-a01d-826dba5c7b83")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 99.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5802fa-85cb-4c6b-8d58-b14e6a6dadd0")
+	)
+	(wire
+		(pts
 			(xy 110.49 110.49) (xy 116.84 110.49)
 		)
 		(stroke
@@ -1980,6 +2030,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 156.21) (xy 109.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e29b97-1599-4bda-8027-1d289ceb8a2e")
+	)
+	(wire
+		(pts
 			(xy 50.8 156.21) (xy 50.8 160.02)
 		)
 		(stroke
@@ -1987,6 +2047,16 @@
 			(type default)
 		)
 		(uuid "4112f4f0-e250-4228-baac-faa3bbd427d7")
+	)
+	(wire
+		(pts
+			(xy 106.68 166.37) (xy 106.68 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437e7c34-2575-4196-903b-11b333a92896")
 	)
 	(wire
 		(pts
@@ -2310,6 +2380,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 166.37) (xy 111.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7349c1-adde-4629-84a0-11d81e887380")
+	)
+	(wire
+		(pts
 			(xy 72.39 106.68) (xy 72.39 102.87)
 		)
 		(stroke
@@ -2367,6 +2447,16 @@
 			(type default)
 		)
 		(uuid "e0913e9e-06ef-46e9-9eed-e7547c1ac144")
+	)
+	(wire
+		(pts
+			(xy 111.76 161.29) (xy 119.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d7ac25-57c1-43a7-878d-958cd26b0ab5")
 	)
 	(wire
 		(pts
@@ -2496,6 +2586,28 @@
 		(uuid "4a9a4b09-7508-4d27-805c-732cec45c360")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.5119 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOUT1"
+		(shape input)
+		(at 109.22 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52f865b5-27a4-4bd9-8c1e-affa65d418f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.1319 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,6 +3117,72 @@
 			(project "PoE"
 				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/2837701c-a169-43b3-8587-304817de4402"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 99.06 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32385357-51ec-4051-9dfe-5fb6a0b2aec3")
+		(property "Reference" "#PWR03005"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 99.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 99.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "178cdb70-eded-4c2a-aa3c-336fd74db1a8")
+		)
+		(instances
+			(project "PoE"
+				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/2837701c-a169-43b3-8587-304817de4402"
+					(reference "#PWR03005")
 					(unit 1)
 				)
 			)
@@ -3695,6 +3873,79 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x03")
+		(at 109.22 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85e75aa2-6a05-45bb-bc18-ba3149b4b9ec")
+		(property "Reference" "J3001"
+			(at 114.3 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x03"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16f0f261-f5e3-4c1c-8e73-ddcb7e48781a")
+		)
+		(pin "3"
+			(uuid "e182e73c-3cee-4bd6-bb1f-3e74b9cb7880")
+		)
+		(pin "1"
+			(uuid "bf6a2128-7fab-4c5c-8af1-426a53095625")
+		)
+		(instances
+			(project "PoE"
+				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/2837701c-a169-43b3-8587-304817de4402"
+					(reference "J3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 149.86 120.65 180)
 		(unit 1)
@@ -3829,6 +4080,72 @@
 			(project "PoE"
 				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/2837701c-a169-43b3-8587-304817de4402"
 					(reference "R3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 127 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8feceef9-404e-4b56-8251-b43eff251772")
+		(property "Reference" "#PWR03006"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 127 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 127 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e5b32e3-ec92-47e6-82e8-5fa0c459d7e2")
+		)
+		(instances
+			(project "PoE"
+				(path "/e8d70991-5081-4afb-b8c3-5ce9f62355e0/2837701c-a169-43b3-8587-304817de4402"
+					(reference "#PWR03006")
 					(unit 1)
 				)
 			)
