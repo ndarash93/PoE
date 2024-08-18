@@ -4200,6 +4200,12 @@
 		(uuid "aa9e53e9-8e4c-4da8-81b3-8efa918287f3")
 	)
 	(junction
+		(at 209.55 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af552d6d-9a75-429f-8403-80321216e418")
+	)
+	(junction
 		(at 163.83 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4289,12 +4295,6 @@
 		(color 0 0 0 0)
 		(uuid "f89f89a3-b7e9-4f4a-8c8b-6d3cba8ce68d")
 	)
-	(junction
-		(at 209.55 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffa88351-218d-484a-aefb-0c053fd23632")
-	)
 	(no_connect
 		(at 97.79 93.98)
 		(uuid "b171f413-3b7f-4b21-bb73-886f22687c3a")
@@ -4308,16 +4308,6 @@
 			(type default)
 		)
 		(uuid "017f40d1-f528-4a1c-97c2-dfd994e69ecb")
-	)
-	(wire
-		(pts
-			(xy 209.55 83.82) (xy 214.63 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e62bef-28ad-4a7d-818e-8b6dfe1ab365")
 	)
 	(wire
 		(pts
@@ -4468,16 +4458,6 @@
 			(type default)
 		)
 		(uuid "11208e63-7576-4152-b04e-aded20081692")
-	)
-	(wire
-		(pts
-			(xy 209.55 83.82) (xy 209.55 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "133a6f84-793c-4266-a08d-f64667ab1e16")
 	)
 	(wire
 		(pts
@@ -4868,6 +4848,16 @@
 			(type default)
 		)
 		(uuid "47643fca-fbb0-49ed-ae7b-efd1983b1529")
+	)
+	(wire
+		(pts
+			(xy 209.55 69.85) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7702c9-3888-48af-ab98-ce4161c93300")
 	)
 	(wire
 		(pts
@@ -5371,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 83.82) (xy 209.55 83.82)
+			(xy 196.85 83.82) (xy 214.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9291,7 +9281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAP_WCAP-ASLI_06p3X05p5_WRE"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.83 82.55 0)
 			(effects
 				(font
@@ -11576,7 +11566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints:CAP_WCAP-ASLI_06p3X05p5_WRE"
 			(at 120.65 50.8 0)
 			(effects
 				(font
