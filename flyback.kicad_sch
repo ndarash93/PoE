@@ -6532,7 +6532,7 @@
 				)
 			)
 		)
-		(property "Value" "43.2"
+		(property "Value" "49.9"
 			(at 143.51 95.25 90)
 			(effects
 				(font
@@ -8842,7 +8842,7 @@
 				)
 			)
 		)
-		(property "Value" "402"
+		(property "Value" "470"
 			(at 111.76 135.89 90)
 			(effects
 				(font
@@ -10999,7 +10999,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 111.76 146.05 90)
 			(effects
 				(font
@@ -11283,7 +11283,7 @@
 				)
 			)
 		)
-		(property "Value" "332"
+		(property "Value" "470"
 			(at 166.37 100.33 90)
 			(effects
 				(font

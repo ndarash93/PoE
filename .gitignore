@@ -4,4 +4,8 @@
 *.zip
 *.kicad_prl
 *.zip
-
+*.gbr
+*.drl
+*.lck
+*.rpt
+*#auto_saved_files#
