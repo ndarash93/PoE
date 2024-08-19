@@ -63,7 +63,10 @@
           "width": 0.66
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "malformed_courtyard|69974998|52299999|d5311ab3-f488-4266-9c3a-d50a269b9049|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|70474997|52800001|d5311ab3-f488-4266-9c3a-d50a269b9049|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -593,7 +596,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

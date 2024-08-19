@@ -128,7 +128,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -16465,7 +16465,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "402"
+		(property "Value" "470"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "5e2670b7-bf54-445a-a480-156560dc2e1f")
@@ -16905,7 +16905,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "332"
+		(property "Value" "470"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "e316cd2e-a7a6-48cc-8d78-039bed5cf2ed")
@@ -25536,7 +25536,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "43.2"
+		(property "Value" "49.9"
 			(at 0 -1.65 -90)
 			(layer "B.Fab")
 			(uuid "3613edda-90ae-4d2a-b2b9-4e83923ef98e")
@@ -29394,7 +29394,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "f0c8279e-8304-4c27-9a72-7bc22a1a59f7")
