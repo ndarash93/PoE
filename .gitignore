@@ -9,3 +9,5 @@
 *.lck
 *.rpt
 *#auto_saved_files#
+/gerbers
+*.gbrjob
