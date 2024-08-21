@@ -21,3 +21,4 @@ sym-lib-table
 *.bak
 *.txt
 *.kicad_sch-bak
+BOMS/
