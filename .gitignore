@@ -20,3 +20,4 @@ fp-lib-table
 sym-lib-table
 *.bak
 *.txt
+*.kicad_sch-bak
